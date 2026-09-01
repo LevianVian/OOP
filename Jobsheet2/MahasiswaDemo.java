@@ -23,7 +23,7 @@ public class MahasiswaDemo {
         m3.nim = "023434";
         m3.nama = "Levian Arta";
         m3.alamat = "Pasuruan, Jawa Timur";
-        m3.kelas = "2G";
+        m3.kelas = "SIB-2G";
         
         m3.displayBiodata();
     }
