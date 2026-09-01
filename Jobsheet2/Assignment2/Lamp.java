@@ -41,7 +41,7 @@ public class Lamp{
             this.currentBrightness = Math.max(0, Math.min(100, this.currentBrightness));
             System.out.println("Lamp " + brand + " brightness adjusted to: " + this.currentBrightness + "%");
         } else {
-            System.out.println("Lamp " + brand + " faied to adjust brightness");
+            System.out.println("Lamp " + brand + " failed to adjust brightness\n\n");
         }
     }
     
@@ -49,6 +49,6 @@ public class Lamp{
         System.out.println("Brand         : " + brand);
         System.out.println("Power         : " + (isTurnedOn ? "ON" : "OFF"));
         System.out.println("Brightness    : " + currentBrightness + "%");
-        System.out.println("Spesification : " + typeOfLamp + ", " + typeOfLumens + ", " + maximumWatts + "W");
+        System.out.println("Spesification : " + typeOfLamp + ", " + typeOfLumens + ", " + maximumWatts + "W\n\n");
     }
 }
